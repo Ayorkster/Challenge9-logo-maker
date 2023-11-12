@@ -24,8 +24,8 @@
   Contact me
   
   ## Tests
-  refer to video test
+  refer to video test: [here](https://drive.google.com/file/d/13W0lgJb2JfcCaVjySVCtcWwejxmnwTtC/view?usp=sharing)
   
   ## Questions
   For additional questions, contact traineralaina@gmail.com.
-  GitHub: [ayorkster](https://github.com/ayorkster)}
+  GitHub: [ayorkster](https://github.com/ayorkster)
