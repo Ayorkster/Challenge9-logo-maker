@@ -1,4 +1,4 @@
-# README Generator
+# Test
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
@@ -9,22 +9,27 @@
   - [Questions](#questions)
   
   ## Description
-  This is a generator that uses NODEJS and INQUIRE to help create a professional README.md file
+  This is a test
 
   ## Installation
-  You need to install NODEjs and INQUITE to run this generator
+  testing
   
   ## Usage
-  run the code in your terminal, answer all the prompts, and it will generate a README.md file using your answers
+  test it
   
   ## License
-  
+  ## License 
+MIT
+
+![License: MIT](https://img.shields.io/badge/license-mit-green.svg)
+
+[License: MIT](https://www.mit.edu/~amini/LICENSE.md)
   
   ## Contributing
-  Contact me
+  contact me
   
   ## Tests
-  refer to video test
+  like this
   
   ## Questions
   For additional questions, contact traineralaina@gmail.com.

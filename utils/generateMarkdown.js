@@ -10,8 +10,8 @@ function renderLicenseBadge(license) {
   } else if (licenseType === 'ISC') {
     yourLicense = `![ISC](https://img.shields.io/pypi/l/xpanse)`
   } else {
-    license.license = ""
-  }
+    licenseType = 'None'; // or any default value you want
+}
   return yourLicense;
 };
 
@@ -25,8 +25,8 @@ function renderLicenseLink(license) {
   } else if (licenseType === 'ISC') {
     licenseLink = `[License: ISC](https://www.mozilla.org/en-US/MPL/2.0/)`
   } else {
-    license.license = ""
-  }
+    licenseType = 'None'; // or any default value you want
+}
   return licenseLink;
 };
 
@@ -47,9 +47,36 @@ ${renderLicenseLink(license)}`
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-
+  ## Table of Contents
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
   
+  ## Description
+  ${data.description}
 
+  ## Installation
+  ${data.install}
+  
+  ## Usage
+  ${data.usage}
+  
+  ## License
+  ${renderLicenseSection(data.license)}
+  
+  ## Contributing
+  ${data.contribution}
+  
+  ## Tests
+  ${data.test}
+  
+  ## Questions
+  For additional questions, contact ${data.email}.
+  GitHub: [${data.username}](https://github.com/${data.username})}
 `;
 }
 
